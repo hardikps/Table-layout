@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="Table Layout"
+        android:textSize="27sp"
+        android:background="@color/accent"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:text="Col 1  Row 1"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/aqua"
+            android:text="Col 2 Row 1"
+            android:textColorLink="#FFFFFF"
+            android:textSize="23sp" />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/aqua"
+            android:text="Col 1 Row 2"
+            android:textSize="23sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="23sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@color/yellow"
+            android:text="Col 2 Row 2"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="23sp"
+            android:layout_weight="1"
+
+            android:background="@color/yellow"
+            android:text="Col 1 Row 3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="23sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@color/aqua"
+            android:text="Col 2 Row 3"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="23sp"
+            android:layout_weight="1"
+
+            android:background="@color/aqua"
+            android:text="Col 1 Row 4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="23sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@color/yellow"
+            android:text="Col 2 Row 4"/>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="23sp"
+            android:layout_weight="1"
+
+            android:background="@color/yellow"
+            android:text="Col 1 Row 5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="23sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@color/aqua"
+            android:text="Col 2 Row 5"/>
+    </TableRow>
+
+</TableLayout>
